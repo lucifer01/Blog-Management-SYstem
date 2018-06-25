@@ -1,0 +1,88 @@
+
+.cont ,.userstatus {
+	margin-left:200px;
+	margin-bottom:20px;
+	
+	height:auto;
+	width:70%;
+	text-align:center;
+	background:#F3F3F3;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+p{
+	text-align:right;
+	font-size: 1em;
+}
+
+ 
+#menu{
+	
+		height:100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 2em;
+	
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a.active {
+    background-color: #111;
+    color: white;
+}
+
+#addpost_form{
+	text-align:center;
+	
+}
+#addpost_form label{
+	font-size: 2em;
+}
+input{
+
+	width: 250px;
+	height: 50px;
+	padding:8px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+ button{
+	width: 200px;
+	padding: 12px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background:white;
+
+}
+button:hover{
+	color:white;
+	background: #111;
+	
+}
+textarea{
+	
+	border: 1px solid black;
+	border-radius: 5px;
+}
